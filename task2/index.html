@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sandeep's Blog</title>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- extern CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Personal blog of Sandeep about technology and student life">
+    <meta name="keywords" content="blog, technology, student, html, css">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <header>
+            <h1>Sandeep's Personal Blog</h1>
+            <span class="tagline">Just a normal student trying web dev</span>
+        </header>
+
+        <nav>
+            <div class="nav-item">Home</div>
+            <div class="nav-item">Posts</div>
+            <div class="nav-item">About</div>
+            <div class="nav-item">Contact</div>
+        </nav>
+
+        <section class="content">
+
+            <div class="post">
+                <h2>My First Blog Post</h2>
+                <span class="date">24 Jan 2026</span>
+                <p>
+                    Today I created my first blog using HTML and CSS.
+                    It was fun and little bit confusing also.
+                </p>
+            </div>
+
+            <div class="post">
+                <h2>Why I Like Programming</h2>
+                <span class="date">23 Jan 2026</span>
+                <p>
+                    Programming makes me feel powerful because I can create things
+                    from nothing just using code.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Disqus Comment Section -->
+        <div id="disqus_thread">
+            <p>this blog is really good</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Sandeep Blog</p>
+        </footer>
+
+    </div>
+
+    <!-- Disqus Script -->
+    <script>
+        var disqus_config = function () {
+            this.page.url = snazzy-bunny-a7de13.netlify.app;
+            this.page.identifier = "student-blog";
+        };
+
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'snazzy-bunny-a7de13.netlify.app/embed.js'; 
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+</body>
+</html>
