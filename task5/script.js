@@ -1,11 +1,11 @@
 var tasks = [];
 
 function addTask() {
-    var taskText = document.getElementById("taskinput").value;
-    var date = document.getElementById("dateinput").value;
+    var taskText = document.getElementById("taskInput").value;
+    var date = document.getElementById("dateInput").value;
 
     if (taskText == "") {
-        alert("please enter task");
+        alert("Enter task");
         return;
     }
 
@@ -19,7 +19,7 @@ function addTask() {
     sortTasks();
     displayTasks(tasks);
 
-    document.getElementById("taskinput").value = "";
+    document.getElementById("taskInput").value = "";
 }
 
 function displayTasks(list) {
@@ -73,14 +73,12 @@ function showPending() {
     displayTasks(pending);
 }
 
-// here we are sorting using Date object
 function sortTasks() {
     tasks.sort(function(a, b) {
         return a.dueDate - b.dueDate;
     });
 }
 
-// Simple date formatting
 function formatDate(date) {
     if (isNaN(date)) return "No date";
     return date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear();
