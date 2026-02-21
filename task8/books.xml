@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+<book>
+<title>Wings of Fire</title>
+<author>A P J Abdul Kalam</author>
+<genre>Biography</genre>
+<price>350</price>
+<date>1999-01-01</date>
+</book>
+
+<book>
+<title>Harry Potter 1</title>
+<author>J K Rowling</author>
+<genre>Fantasy</genre>
+<price>500</price>
+<date>2001-07-21</date>
+</book>
+
+<book>
+<title>Harry Potter 2</title>
+<author>J K Rowling</author>
+<genre>Fantasy</genre>
+<price>520</price>
+<date>2002-07-21</date>
+</book>
+
+<book>
+<title>The Alchemist</title>
+<author>Paulo Coelho</author>
+<genre>Fiction</genre>
+<price>300</price>
+<date>1988-05-01</date>
+</book>
+
+<book>
+<title>Rich Dad Poor Dad</title>
+<author>Robert Kiyosaki</author>
+<genre>Finance</genre>
+<price>450</price>
+<date>1997-04-01</date>
+</book>
+
+<book>
+<title>Atomic Habits</title>
+<author>James Clear</author>
+<genre>Self Help</genre>
+<price>600</price>
+<date>2018-10-16</date>
+</book>
+
+<book>
+<title>Think and Grow Rich</title>
+<author>Napoleon Hill</author>
+<genre>Finance</genre>
+<price>400</price>
+<date>1937-01-01</date>
+</book>
+
+<book>
+<title>Ikigai</title>
+<author>Hector Garcia</author>
+<genre>Self Help</genre>
+<price>380</price>
+<date>2016-01-01</date>
+</book>
+
+<book>
+<title>1984</title>
+<author>George Orwell</author>
+<genre>Fiction</genre>
+<price>290</price>
+<date>1949-06-08</date>
+</book>
+
+<book>
+<title>The Hobbit</title>
+<author>J R R Tolkien</author>
+<genre>Fantasy</genre>
+<price>550</price>
+<date>1937-09-21</date>
+</book>
+
+<!-- 10 done -->
+
+<book>
+<title>Deep Work</title>
+<author>Cal Newport</author>
+<genre>Self Help</genre>
+<price>480</price>
+<date>2016-01-05</date>
+</book>
+
+<book>
+<title>Zero to One</title>
+<author>Peter Thiel</author>
+<genre>Business</genre>
+<price>420</price>
+<date>2014-09-16</date>
+</book>
+
+<book>
+<title>Sapiens</title>
+<author>Yuval Noah Harari</author>
+<genre>History</genre>
+<price>650</price>
+<date>2011-01-01</date>
+</book>
+
+<book>
+<title>Steve Jobs</title>
+<author>Walter Isaacson</author>
+<genre>Biography</genre>
+<price>700</price>
+<date>2011-10-24</date>
+</book>
+
+<book>
+<title>The Power of Habit</title>
+<author>Charles Duhigg</author>
+<genre>Self Help</genre>
+<price>450</price>
+<date>2012-02-28</date>
+</book>
+
+<book>
+<title>Clean Code</title>
+<author>Robert C Martin</author>
+<genre>Technology</genre>
+<price>800</price>
+<date>2008-08-01</date>
+</book>
+
+<book>
+<title>The Lean Startup</title>
+<author>Eric Ries</author>
+<genre>Business</genre>
+<price>500</price>
+<date>2011-09-13</date>
+</book>
+
+<book>
+<title>India After Gandhi</title>
+<author>Ramachandra Guha</author>
+<genre>History</genre>
+<price>750</price>
+<date>2007-01-01</date>
+</book>
+
+<book>
+<title>The Monk Who Sold His Ferrari</title>
+<author>Robin Sharma</author>
+<genre>Self Help</genre>
+<price>350</price>
+<date>1997-01-01</date>
+</book>
+
+<book>
+<title>The Da Vinci Code</title>
+<author>Dan Brown</author>
+<genre>Fiction</genre>
+<price>420</price>
+<date>2003-03-18</date>
+</book>
+
+<!-- 20 done -->
+
+<book>
+<title>Inferno</title>
+<author>Dan Brown</author>
+<genre>Fiction</genre>
+<price>450</price>
+<date>2013-05-14</date>
+</book>
+
+<book>
+<title>Digital Fortress</title>
+<author>Dan Brown</author>
+<genre>Fiction</genre>
+<price>380</price>
+<date>1998-01-01</date>
+</book>
+
+<book>
+<title>Angels and Demons</title>
+<author>Dan Brown</author>
+<genre>Fiction</genre>
+<price>460</price>
+<date>2000-05-01</date>
+</book>
+
+<book>
+<title>The Secret</title>
+<author>Rhonda Byrne</author>
+<genre>Self Help</genre>
+<price>400</price>
+<date>2006-01-01</date>
+</book>
+
+<book>
+<title>Think Like a Monk</title>
+<author>Jay Shetty</author>
+<genre>Self Help</genre>
+<price>520</price>
+<date>2020-09-08</date>
+</book>
+
+<book>
+<title>Good to Great</title>
+<author>Jim Collins</author>
+<genre>Business</genre>
+<price>600</price>
+<date>2001-10-16</date>
+</book>
+
+<book>
+<title>The Psychology of Money</title>
+<author>Morgan Housel</author>
+<genre>Finance</genre>
+<price>550</price>
+<date>2020-09-01</date>
+</book>
+
+<book>
+<title>The Subtle Art</title>
+<author>Mark Manson</author>
+<genre>Self Help</genre>
+<price>480</price>
+<date>2016-09-13</date>
+</book>
+
+<book>
+<title>Start With Why</title>
+<author>Simon Sinek</author>
+<genre>Business</genre>
+<price>530</price>
+<date>2009-01-01</date>
+</book>
+
+<book>
+<title>The Great Gatsby</title>
+<author>F Scott Fitzgerald</author>
+<genre>Fiction</genre>
+<price>320</price>
+<date>1925-01-01</date>
+</book>
+
+<!-- 30 done -->
+
+<book>
+<title>To Kill a Mockingbird</title>
+<author>Harper Lee</author>
+<genre>Fiction</genre>
+<price>390</price>
+<date>1960-07-11</date>
+</book>
+
+<book>
+<title>The Catcher in the Rye</title>
+<author>J D Salinger</author>
+<genre>Fiction</genre>
+<price>340</price>
+<date>1951-07-16</date>
+</book>
+
+<book>
+<title>Pride and Prejudice</title>
+<author>Jane Austen</author>
+<genre>Fiction</genre>
+<price>310</price>
+<date>1813-01-28</date>
+</book>
+
+<book>
+<title>The Fault in Our Stars</title>
+<author>John Green</author>
+<genre>Fiction</genre>
+<price>370</price>
+<date>2012-01-10</date>
+</book>
+
+<book>
+<title>The Silent Patient</title>
+<author>Alex Michaelides</author>
+<genre>Thriller</genre>
+<price>480</price>
+<date>2019-02-05</date>
+</book>
+
+<book>
+<title>Gone Girl</title>
+<author>Gillian Flynn</author>
+<genre>Thriller</genre>
+<price>450</price>
+<date>2012-06-05</date>
+</book>
+
+<book>
+<title>The Shining</title>
+<author>Stephen King</author>
+<genre>Horror</genre>
+<price>500</price>
+<date>1977-01-28</date>
+</book>
+
+<book>
+<title>Dracula</title>
+<author>Bram Stoker</author>
+<genre>Horror</genre>
+<price>300</price>
+<date>1897-01-01</date>
+</book>
+
+<book>
+<title>Frankenstein</title>
+<author>Mary Shelley</author>
+<genre>Horror</genre>
+<price>290</price>
+<date>1818-01-01</date>
+</book>
+
+<book>
+<title>Lord of the Flies</title>
+<author>William Golding</author>
+<genre>Fiction</genre>
+<price>360</price>
+<date>1954-09-17</date>
+</book>
+
+<!-- 40 done -->
+
+<book>
+<title>Money Heist Story</title>
+<author>John Smith</author>
+<genre>Fiction</genre>
+<price>420</price>
+<date>2021-01-01</date>
+</book>
+
+<book>
+<title>Data Science Basics</title>
+<author>Andrew Ng</author>
+<genre>Technology</genre>
+<price>900</price>
+<date>2022-01-01</date>
+</book>
+
+<book>
+<title>Python Programming</title>
+<author>Guido Rossum</author>
+<genre>Technology</genre>
+<price>850</price>
+<date>2020-01-01</date>
+</book>
+
+<book>
+<title>Web Development Guide</title>
+<author>John Doe</author>
+<genre>Technology</genre>
+<price>780</price>
+<date>2021-06-01</date>
+</book>
+
+<book>
+<title>Marketing 101</title>
+<author>Philip Kotler</author>
+<genre>Business</genre>
+<price>650</price>
+<date>2018-01-01</date>
+</book>
+
+<book>
+<title>Artificial Intelligence</title>
+<author>Stuart Russell</author>
+<genre>Technology</genre>
+<price>950</price>
+<date>2015-01-01</date>
+</book>
+
+<book>
+<title>Emotional Intelligence</title>
+<author>Daniel Goleman</author>
+<genre>Self Help</genre>
+<price>500</price>
+<date>1995-01-01</date>
+</book>
+
+<book>
+<title>Mindset</title>
+<author>Carol Dweck</author>
+<genre>Self Help</genre>
+<price>470</price>
+<date>2006-01-01</date>
+</book>
+
+<book>
+<title>The Time Machine</title>
+<author>H G Wells</author>
+<genre>Science Fiction</genre>
+<price>330</price>
+<date>1895-01-01</date>
+</book>
+
+<book>
+<title>Dune</title>
+<author>Frank Herbert</author>
+<genre>Science Fiction</genre>
+<price>620</price>
+<date>1965-08-01</date>
+</book>
+
+</catalog>

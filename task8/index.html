@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML to JSON</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+
+
+        body{
+            font-family: Arial;
+        }
+
+
+
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+
+
+        }
+        th{
+                    background-color: lightgray;
+        }
+        select, input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<h2>Book Catalog</h2>
+
+Genre:  
+<select id="genre">
+    <option value="all">All</option>
+</select>
+
+author:
+<select id="author">
+      <option value="all">All</option>
+</select>
+
+
+
+Minimum Price:
+<input type="number" id="min">
+
+Maximum Price:
+<input type="number" id="max">
+
+<button id="filter">Filter</button>
+
+<table id="table">
+</table>
+
+
+
+
+ 
+<script>
+
+var data = [];
+
+
+
+$(document).ready(function(){
+
+    $.ajax({
+        url: "books.xml",
+        type: "GET",
+        dataType: "xml",
+        success: function(xml){
+
+            $(xml).find("book").each(function(){
+
+                var t = $(this).find("title").text();
+                var a = $(this).find("author").text();
+                var g = $(this).find("genre").text();
+                var p = $(this).find("price").text();
+                var d = $(this).find("date").text();
+
+                var obj = {
+                    title: t,
+                    author: a,
+                    genre: g,
+                    price: parseInt(p),
+                    date: d
+                };
+
+                data.push(obj);
+
+                if($("#genre option[value='"+g+"']").length == 0){
+                    $("#genre").append("<option value='"+g+"'>"+g+"</option>");
+                }
+
+                if($("#author option[value='"+a+"']").length == 0){
+                    $("#author").append("<option value='"+a+"'>"+a+"</option>");
+                }
+
+            });
+
+            show(data);
+        }
+    });
+
+    $("#filter").click(function(){
+
+        var g = $("#genre").val();
+        var a = $("#author").val();
+        var min = $("#min").val();
+        var max = $("#max").val();
+
+        var newdata = data.filter(function(b){
+
+            var ok = true;
+
+                 if(g != "all" && b.genre != g){
+                ok = false;
+            }
+
+            if(a != "all" && b.author != a){
+                ok = false;
+            }
+
+            if(min != "" && b.price < parseInt(min)){
+                ok = false;
+            }
+
+            if(max != "" && b.price > parseInt(max)){
+                ok = false;
+            }
+
+            return ok;
+        });
+
+        show(newdata);
+    });
+
+});
+
+function show(arr){
+
+
+
+
+
+    var html = "<tr><th>Title</th><th>Author</th><th>Genre</th><th>Price</th><th>Date</th></tr>";
+
+
+
+
+    for(var i=0; i<arr.length; i++){
+
+        html += "<tr>";
+        html += "<td>"+arr[i].title+"</td>";
+        html += "<td>"+arr[i].author+"</td>";
+        html += "<td>"+arr[i].genre+"</td>";
+        html += "<td>"+arr[i].price+"</td>";
+        html += "<td>"+arr[i].date+"</td>";
+        html += "</tr>";
+    }
+
+    $("#table").html(html);
+}
+
+</script>
+
+</body>
+</html>
