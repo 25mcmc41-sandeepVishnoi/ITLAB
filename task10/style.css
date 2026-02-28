@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    margin: 40px;
+}
+
+.tab-links{
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tab-links a{
+    text-decoration: none;
+    padding: 6px 10px;
+    border: 1px solid #333;
+    color: black;
+}
+
+.activeTab a{
+    background: #333;
+    color: white;
+}
+
+.tab-section{
+    display: none;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

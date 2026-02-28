@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabbed Navigation Plugin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>My Tab Navigation</h2>
+
+<div id="tabs">
+
+    <ul class="tab-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-section">
+           <h3>Home Section</h3>
+            <p>This is home content.</p>
+            <p>                
+                Welcome to our website. This section contains general information 
+                about the page. We created this tab using a custom jQuery plugin. 
+                The content switches smoothly when we click different tabs.
+            </p>
+            <p>
+                You can also use arrow keys to move between tabs. The URL also 
+                changes according to the selected tab.
+            </p>
+        </div>
+
+        <div id="about" class="tab-section">
+            <h3>About Section</h3>
+            <p>This is about content.</p>
+            <p>
+                This section tells more information about the project. 
+                We implemented tab navigation  jQuery plugin method.
+                It hides and shows the content dynamically.
+            </p>
+            <p>
+                The plugin also supports animation speed and custom active 
+                tab styling. This makes the tab navigation flexible.
+            </p>
+        </div>
+
+        <div id="contact" class="tab-section">
+           <h3>Contact Section</h3>
+            <p>This is contact content.</p>
+            <p>
+                You can contact us through email or phone. This section is 
+                only visible when the Contact tab is active.
+            </p>
+            <p>
+                The plugin also supports URL hash navigation, so users 
+                can bookmark this tab directly.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+<script>
+    $("#tabs").myTabs({
+        activeClass:"activeTab",
+        speed:400,
+        defaultTab:0
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    margin: 40px;
+}
+
+form{
+    width: 350px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+input, select{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+}
